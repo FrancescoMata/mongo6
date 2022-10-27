@@ -7,12 +7,19 @@ Two alternatives are available to use LoadBalancer services:
 Use random load balancer IP addresses using an initContainer that waits for the IP addresses to be ready and discovers them automatically. An example deployment configuration is shown below:
 
   architecture=replicaset
+  
   replicaCount=2
+  
   externalAccess.enabled=true
+  
   externalAccess.service.type=LoadBalancer
+  
   externalAccess.service.port=27017
+  
   externalAccess.autoDiscovery.enabled=true
+  
   serviceAccount.create=true
+  
   rbac.create=true
 
 
