@@ -23,6 +23,8 @@ Use random load balancer IP addresses using an initContainer that waits for the 
   rbac.create=true
 ```
 
+link with information: https://docs.bitnami.com/kubernetes/infrastructure/mongodb/configuration/configure-external-access-replicaset/
+
 # MongoDB(R) packaged by Bitnami
 
 MongoDB(R) is a relational open source NoSQL database. Easy to use, it stores data in JSON-like documents. Automated scalability and high-performance. Ideal for developing cloud native applications.
