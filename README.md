@@ -5,7 +5,7 @@
 Two alternatives are available to use LoadBalancer services:
 
 Use random load balancer IP addresses using an initContainer that waits for the IP addresses to be ready and discovers them automatically. An example deployment configuration is shown below:
-
+```bash
   architecture=replicaset
   
   replicaCount=2
@@ -21,7 +21,7 @@ Use random load balancer IP addresses using an initContainer that waits for the 
   serviceAccount.create=true
   
   rbac.create=true
-
+```
 
 # MongoDB(R) packaged by Bitnami
 
