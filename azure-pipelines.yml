@@ -1,4 +1,3 @@
-# Starter pipeline
 - task: Maven@4
   inputs:
     mavenPomFile: 'pom.xml'
